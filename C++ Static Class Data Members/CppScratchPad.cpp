@@ -9,12 +9,13 @@ using std::string;
 
 class MyClass		// declaration -> give me ram
 {
+private:
 	static int myStaticInt;
 };
 
-int MyClass::myStaticInt = 5;
+int MyClass::myStaticInt = 5;		// scopes in MyClass
 
-int anotherInt = 50;
+//int anotherInt = 50;
 //void foo(){}
 //void goo(){}
 void main()
