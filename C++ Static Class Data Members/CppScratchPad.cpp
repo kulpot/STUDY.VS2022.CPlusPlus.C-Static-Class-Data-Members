@@ -4,24 +4,64 @@ using std::cout;
 using std::endl;
 using std::string;
 
+// --------------------------------- C++ Static Class Data Members ----------------------------------
+//ref link:https://www.youtube.com/watch?v=k2LeEbcVazE&list=PLRwVmtr-pp05LyV3bYHwrFacNSNjbUqS6&index=6
+
+void main()
+{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // ------------------------------ C++ Compiler-Generated Default Constructors -----------------------------------------
 //ref link:https://www.youtube.com/watch?v=NxPPSegdilc&list=PLRwVmtr-pp05LyV3bYHwrFacNSNjbUqS6&index=5
 
 // parameter list constructor - takes no argument, a default constructor, constructor that takes no constructor
 
-class Cow {
-public:
-	int mooCount;
-	//Cow(){}			// initialize none parameter constructor:output:-858993460
-	Cow(int value) {}		// initialize parameterConstructor with argument:
-};
-
-void main()
-{
-	//Cow cow;
-	Cow cow(5);
-	cout << cow.mooCount << endl; //error: cebug check, not error: in release
-}
+//class Cow {
+//public:
+//	int mooCount;
+//	//Cow(){}			// initialize none parameter constructor:output:-858993460
+//	Cow(int value) {}		// initialize parameterConstructor with argument:
+//};
+//
+//void main()
+//{
+//	//Cow cow;
+//	Cow cow(5);
+//	cout << cow.mooCount << endl; //error: cebug check, not error: in release
+//}
 
 
 
