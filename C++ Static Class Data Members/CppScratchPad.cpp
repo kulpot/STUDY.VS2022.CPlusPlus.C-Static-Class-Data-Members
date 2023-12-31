@@ -7,10 +7,14 @@ using std::string;
 // --------------------------------- C++ Static Class Data Members ----------------------------------
 //ref link:https://www.youtube.com/watch?v=k2LeEbcVazE&list=PLRwVmtr-pp05LyV3bYHwrFacNSNjbUqS6&index=6
 
-class MyClass
+class MyClass		// declaration -> give me ram
 {
-	static int myStaticInt = 5;
+	static int myStaticInt;
 };
+
+int MyClass::myStaticInt = 5;
+
+int anotherInt = 50;
 
 void main()
 {
