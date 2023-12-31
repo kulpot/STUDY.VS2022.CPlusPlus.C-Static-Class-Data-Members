@@ -15,7 +15,8 @@ class MyClass		// declaration -> give me ram
 int MyClass::myStaticInt = 5;
 
 int anotherInt = 50;
-
+//void foo(){}
+//void goo(){}
 void main()
 {
 
