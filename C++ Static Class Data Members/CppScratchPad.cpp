@@ -7,20 +7,37 @@ using std::string;
 // --------------------------------- C++ Static Class Data Members ----------------------------------
 //ref link:https://www.youtube.com/watch?v=k2LeEbcVazE&list=PLRwVmtr-pp05LyV3bYHwrFacNSNjbUqS6&index=6
 
-class MyClass		// declaration -> give me ram
-{
-private:
-	static int myStaticInt;
-};
+//static->one variable shared among all instance of a class.
+//private->only the class can access that variable.
+//You can have static variables that are public or private.The two terms are different concepts.
 
-int MyClass::myStaticInt = 5;		// scopes in MyClass
+
+#include "MyClass.h"		// .h files
+
+//class MyClass		// declaration -> give me ram
+//{
+////private:
+//public:
+//	static int myStaticInt;	// static declaration
+//public:
+//	void someFunction()
+//	{
+//		myStaticInt++;
+//	}
+//};
+
+//int MyClass::myStaticInt = 5;	//static definition	// scopes in MyClass
 
 //int anotherInt = 50;
 //void foo(){}
 //void goo(){}
+
+int myStaticInt = 5;
+//int SomeOtherClass::anotherStaticInt = 10;		// restrict visibility
+
 void main()
 {
-
+	MyClass::myStaticInt = 10;
 }
 
 
