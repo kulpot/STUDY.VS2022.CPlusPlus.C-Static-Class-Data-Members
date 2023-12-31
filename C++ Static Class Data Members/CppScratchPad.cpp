@@ -7,6 +7,11 @@ using std::string;
 // --------------------------------- C++ Static Class Data Members ----------------------------------
 //ref link:https://www.youtube.com/watch?v=k2LeEbcVazE&list=PLRwVmtr-pp05LyV3bYHwrFacNSNjbUqS6&index=6
 
+class MyClass
+{
+	static int myStaticInt = 5;
+};
+
 void main()
 {
 
